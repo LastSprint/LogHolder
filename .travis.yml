@@ -7,5 +7,5 @@ before_script:
   - cd LogHolder
   - dotnet restore
 script:
-  - ditnet build
+  - dotnet build
   - dotnet test ./LogHolderAPIUnitTests
